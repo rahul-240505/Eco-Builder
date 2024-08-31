@@ -145,3 +145,85 @@ header .navbar ul li a:hover{
   width: 70rem;
   line-height: 1.5;
 }
+.about{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/About\ \(1\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about .row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about .row .image{
+  flex: 1 1 40rem;
+  padding: 2rem;
+}
+.about .row .image img{
+  width: 100%
+}
+.about .row .content{
+  flex: 1 1 40rem;
+  padding: 2rem;
+  background: rgba(255, 225, 255, 0.03);
+  border: 1px solid rgba(255, 225, 255, 0.05);
+  backdrop-filter: blur(11px);
+  box-shadow: 0 20px 50px rgba(40, 113, 85, 0.4);
+  padding: 2rem 1rem;
+  flex: 1 1 20rem;
+  border-radius: 25px;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+.about .row .content h3{
+  font-family: "Oswald",sans-serif;
+  font-weight: 300;
+  font-size: 4rem;
+  color: #739c21;
+}
+.about .row .content h5{
+  font-family: "Montserrat";
+  display: inline;
+  font-size: 2.5rem;
+  color: #739c21;
+}
+.about .row .content p{
+  font-family: "Montserrat";
+  display: inline;
+  font-size: 2rem;
+  color: white;
+  padding: 1rem 0;  
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+footer{
+  padding: 7px;
+  display:inline-flexbox;
+  padding: 0;
+  border: none;
+  align-items: center;
+  justify-content: space-around;
+}
+footer ul{
+  padding:10px;
+  font-size: 1.7rem;
+  background-color: #172c39;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+}
+.logo a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
