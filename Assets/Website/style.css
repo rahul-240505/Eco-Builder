@@ -26,3 +26,120 @@ section{
   background-size: cover;
   background-repeat: none;
 }
+.btn{
+  color: #fff;
+  height: 5rem;
+  width: 16rem;
+  outline: none;
+  border: .2rem solid var(--color1);
+  font-size: 2rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 0;
+  position: relative;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+}
+.btn::before,
+.btn::after{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--color1);
+  z-index: -1;
+  transition: all .5s cubic-bezier(.37,1.14,.26,1.24);
+}
+.btn::before{
+  clip-path: polygon(0 0,0 0,0 0);
+}
+.btn:hover::before{
+  clip-path: polygon(0 0,0 100%,100% 0);
+}
+.btn::after{
+  clip-path: polygon(100% 100%,100% 100%,100% 100%);
+}
+.btn:hover::after{
+  clip-path: polygon(100% 0,0 100%,100% 100%);
+}
+.btn:hover{
+  background-color: #739c21;
+  color: blanchedalmond;
+}
+.heading{
+  text-align: center;
+  font-size: 4rem;
+  color: #555;
+  padding: 1rem;
+  padding-top: 5rem;
+}
+.heading i{
+  color: #739c21;
+  font-size: 2rem;
+}
+header{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding: 1rem 5rem;
+  width: 100%;
+}
+header .navbar ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+header .navbar ul li{
+  margin: 0 1rem;
+}
+header .navbar ul li a{
+  font-size: 2rem;
+  color: #000;
+  font-style: italic;
+}
+header .navbar ul li a:hover{
+  color: var(--color1);
+}
+.logo{
+  border-radius: 50%;
+}
+.home{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/aurora-borealis-3840x2160-16979.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home .content{
+  text-align: center;
+  padding: 1rem;
+  background: rgba(255, 225, 255, 0.03);
+  border: 1px solid rgba(255, 225, 255, 0.05);
+  backdrop-filter: blur(11px);
+  box-shadow: 0 20px 50px rgba(40, 113, 85, 0.4);
+  padding: 2rem 1rem;
+  border-radius: 25px;
+}
+.home .content h1{
+  font-family: sans-serif;
+  font-size: 7rem;
+  color: #fff;
+}
+.home .content p{
+  font-size: 1.4rem;
+  color: white;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  width: 70rem;
+  line-height: 1.5;
+}
