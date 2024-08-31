@@ -2,7 +2,7 @@
   --color1: #739c21;
 }
 *{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: serif;
   margin: 0;
   padding:0;
   box-sizing: border-box;
@@ -22,7 +22,6 @@ html{
 }
 section{
   padding: 4% 6%;
-  background-image: url('/B216_1.webp');
   background-size: cover;
   background-repeat: none;
 }
@@ -102,7 +101,7 @@ header .navbar ul li{
 }
 header .navbar ul li a{
   font-size: 2rem;
-  color: #000;
+  color: #fff;
   font-style: italic;
 }
 header .navbar ul li a:hover{
@@ -116,7 +115,7 @@ header .navbar ul li a:hover{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/aurora-borealis-3840x2160-16979.jpg);
+  background-image: url(/home_Page\ \(1\).png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -131,11 +130,14 @@ header .navbar ul li a:hover{
   border-radius: 25px;
 }
 .home .content h1{
-  font-family: sans-serif;
+  font-family: "Oswald",sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 7rem;
   color: #fff;
 }
 .home .content p{
+  font-family: "Montserrat";
   font-size: 1.4rem;
   color: white;
   padding: 1rem 0;
