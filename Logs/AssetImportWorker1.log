@@ -280,3 +280,28 @@ Start importing Assets/Audios/shatter-93498.mp3 using Guid(00ccfd0ff354bb04aa5bc
  -> (artifact id: '2e510c230d19896c4c769808132739d9') in 0.176511 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3482.215132 seconds.
+  path: Assets/Sprites/coins.png
+  artifactKey: Guid(ab6816e6c1fa524419bb20f8f6e6193f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/coins.png using Guid(ab6816e6c1fa524419bb20f8f6e6193f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8bdc5b36c3b095f7d2498ada61a8ca7b') in 0.199256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Sprites/well.png
+  artifactKey: Guid(51afd2bd1cbed9a4a88d5ec585bb988b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/well.png using Guid(51afd2bd1cbed9a4a88d5ec585bb988b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '01a26d858792f1aa1c701552cfca0406') in 0.013517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
