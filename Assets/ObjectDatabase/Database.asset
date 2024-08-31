@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f09d3968793d224da9769a07bf19a35, type: 3}
+  m_Name: Database
+  m_EditorClassIdentifier: 
+  objectsData:
+  - <Name>k__BackingField: Floor
+    <ID>k__BackingField: 0
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefab>k__BackingField: {fileID: 8248723634428475230, guid: fa682193c5b2aa044982c7b37850f9e8,
+      type: 3}
+  - <Name>k__BackingField: Bed
+    <ID>k__BackingField: 1
+    <Size>k__BackingField: {x: 2, y: 1}
+    <Prefab>k__BackingField: {fileID: 5525109419335297907, guid: e039ce062fc9f1f4a8d2d63ed161b8f6,
+      type: 3}
+  - <Name>k__BackingField: House
+    <ID>k__BackingField: 2
+    <Size>k__BackingField: {x: 5, y: 5}
+    <Prefab>k__BackingField: {fileID: 9190336878521918805, guid: a9235c01e2fd5a94fa22850e1b36b25b,
+      type: 3}
